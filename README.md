@@ -1,7 +1,13 @@
-# AI 资料分享 （每周五一篇）
+# AI 资料分享 
 
-+ [2023.06.16](./src/2023/2023.06.16.md)
-+ [2023.06.09](./src/2023/2023.06.09.md)
+## 2023 资讯 （每周五一篇）
++ [2023.06.24](./src/2023/50%2006.24.md)
++ [2023.06.16](./src/2023/51%2006.16.md)
++ [2023.06.09](./src/2023/52%2006.09.md)
+
+## 专题
+
++ [向量数据库](./src/topic/vector_database.md)
 
 ## 博客
 
@@ -17,10 +23,6 @@
 
 + [李宏毅 2023 机器学习视频](https://www.bilibili.com/video/BV1TD4y137mP/)
 + [李沐 AI 论文精读](https://space.bilibili.com/1567748478/channel/collectiondetail?sid=32744)
-+ 吴恩达 LLM 短教程 （中文字幕）
-    - [使用 GPT API构建系统 (1:46)](https://www.bilibili.com/video/BV1KW4y1R74P/?spm_id_from=333.999.0.0)
-    - [Langchain 与 LLM模型应用开发 (1:38)](https://www.bilibili.com/video/BV1kk4y1W7yh?p=18&vd_source=61f266a07757af5d2720146e0634f7d6)
-    - [扩散模型的原理 (0:36)](https://www.bilibili.com/video/BV1kk4y1W7yh/?p=19&vd_source=61f266a07757af5d2720146e0634f7d6)
 
 ## 附录
 
