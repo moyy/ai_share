@@ -1,4 +1,6 @@
 - [数据库技术](#数据库技术)
+- [08. Exograph：以声明式方式创建灵活、安全高效的GraphQL查询和变更API的后端](#08-exograph以声明式方式创建灵活安全高效的graphql查询和变更api的后端)
+- [07. GlareDB：用 SQL 查询和分析分布式数据的数据库系统](#07-glaredb用-sql-查询和分析分布式数据的数据库系统)
 - [06. 知乎：推荐系统系列](#06-知乎推荐系统系列)
 - [05. 为什么ClickHouse这么快](#05-为什么clickhouse这么快)
 - [04. 关系数据库的解释](#04-关系数据库的解释)
@@ -7,6 +9,10 @@
 - [01. Figma: 数据库架构的成长之痛](#01-figma-数据库架构的成长之痛)
 
 # 数据库技术
+
+# 08. [Exograph：以声明式方式创建灵活、安全高效的GraphQL查询和变更API的后端](https://github.com/exograph/exograph)
+
+# 07. [GlareDB：用 SQL 查询和分析分布式数据的数据库系统](https://github.com/GlareDB/glaredb)
 
 # 06. [知乎：推荐系统系列](https://www.zhihu.com/people/yan-yiceng/posts)
 
