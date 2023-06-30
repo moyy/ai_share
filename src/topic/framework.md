@@ -31,7 +31,11 @@
   
 # 05. [Supabase](https://github.com/supabase/supabase)
 
-私有部署：[见 官方说明](https://supabase.com/docs/guides/self-hosting) 以及 [见 知乎文章]([Title](https://zhuanlan.zhihu.com/p/633443402))
+部署私有库:
+
++ [官方: 通过 Docker 部署](https://supabase.com/docs/guides/self-hosting/docker)
++ [官方说明](https://supabase.com/docs/guides/self-hosting)
++ [知乎文章](https://zhuanlan.zhihu.com/p/633443402)
 
 `Supabase` 是 `Firebase` 的开源替代品，一个 后端及服务（`BaaS`，Backend as a Service）平台
 
