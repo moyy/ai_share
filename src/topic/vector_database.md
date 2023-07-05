@@ -1,4 +1,5 @@
 - [向量数据库](#向量数据库)
+- [08. tinyvector: SQLite \& Pytorch](#08-tinyvector-sqlite--pytorch)
 - [07. 技术文章系列: Qdrant中的向量数据库](#07-技术文章系列-qdrant中的向量数据库)
 - [06. 推荐系统 的 向量检索 解析](#06-推荐系统-的-向量检索-解析)
 - [05. 在Rust中用一周编矢量数据库](#05-在rust中用一周编矢量数据库)
@@ -43,6 +44,10 @@
 ![](../../images/007C1uJCgy1heunx3dpduj30zo18t49p.jpg)
 
 ![](../../images/1_VSkugYj5NOCQ8xTPaWnv2w.webp)
+
+# 08. [tinyvector: SQLite & Pytorch](https://github.com/0hq/tinyvector)
+
+tinyvector：用SQLite和PyTorch构建的微型最近邻嵌入数据库，一个快速、轻量的向量嵌入数据库，具有可定制性强、易于扩展等特点
 
 # 07. [技术文章系列: Qdrant中的向量数据库](https://qdrant.tech/articles/)
 
