@@ -2,14 +2,13 @@
 
 ## 2023 资讯 （每周五一篇）
 
-+ [2023.06.30](src/2023/49%2006.30.md)
-+ [2023.06.24](src/2023/50%2006.24.md)
-+ [2023.06.16](src/2023/51%2006.16.md)
-+ [2023.06.09](src/2023/52%2006.09.md)
++ [2023.07.14](src/2023/47%2007.14.md)
++ [2023.07.07](src/2023/48%2007.07.md)
++ [2023.06](src/2023/49%2006.md)
 
 ## 专题
 
-+ [AI Agent](src/topic/agent.md)
++ [AI 项目](src/topic/ai_project.md)
 + [向量数据库](src/topic/vector_database.md)
 + [数据库](src/topic/database.md)
 + [开发框架](src/topic/framework.md) 

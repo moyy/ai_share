@@ -9,6 +9,13 @@
 
 ||Github Star数||
 |--|--|--|
+|[Danswer](https://github.com/danswer-ai/danswer)||开源企业级问答系统|
+|[gpt-author](https://github.com/mshumer/gpt-author)||使用GPT-4和Stable Diffusion API调用链生成原创奇幻小说|
+|[GPT Code UI](https://github.com/ricklamers/gpt-code-ui/)||开源 GPT 代码解释器插件|
+|[GPTCache](https://github.com/zilliztech/GPTCache)|4.3k|用`向量数据库`做缓存|
+|[PDF-GPT](https://github.com/bhaskatripathi/pdfGPT)|5.3k||
+|[Semantra](https://github.com/freedmand/semantra)||语义搜索|
+|[Quivr]()|||
 |[AutoGPT](https://autogpt.net/)||旨在使GPT-4完全自主|
 |[L♾️pGPT](https://github.com/farizrahman4u/loopgpt)|1.1k|AutoGPT 的 重新实现|
 |[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)|31.9k|指定你希望它构建什么，人工智能要求澄清，然后构建它|
@@ -37,6 +44,7 @@
 
 |||
 |--|--|
+|[Mendable AI](https://www.mendable.ai/)||输入github url 的 QA|
 |[DeepNote](https://deepnote.com/blog/introducing-deepnote-ai)|凭借其高效和上下文代码建议，为未来笔记本电脑中人工智能驱动的数据探索铺平了道路。|
 |[Airplane Autopilot](https://www.airplane.dev/autopilot)|一家制造内部工具的公司，他们正在制造自动驾驶人工智能助手|
 |[Aomni](https://www.aomni.com/)|专门为研究设计的人工智能代理|
