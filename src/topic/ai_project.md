@@ -1,9 +1,11 @@
-- [Awesome AI Agents](#awesome-ai-agents)
+#! https://zhuanlan.zhihu.com/p/642149893
+- [LLM 相关项目](#llm-相关项目)
 - [01. 开源：参考 功能，代码流程](#01-开源参考-功能代码流程)
 - [02. 闭源：借鉴 产品流程](#02-闭源借鉴-产品流程)
 
+# LLM 相关项目
 
-# [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
+[Github备份地址](https://github.com/moyy/ai_share/blob/main/src/topic/ai_project.md)
 
 # 01. 开源：参考 功能，代码流程
 
@@ -15,7 +17,7 @@
 |[GPTCache](https://github.com/zilliztech/GPTCache)|4.3k|用`向量数据库`做缓存|
 |[PDF-GPT](https://github.com/bhaskatripathi/pdfGPT)|5.3k||
 |[Semantra](https://github.com/freedmand/semantra)||语义搜索|
-|[Quivr]()|||
+|[Quivr](https://github.com/StanGirard/quivr)||基于 Langchain / Supabase 的 QA|
 |[AutoGPT](https://autogpt.net/)||旨在使GPT-4完全自主|
 |[L♾️pGPT](https://github.com/farizrahman4u/loopgpt)|1.1k|AutoGPT 的 重新实现|
 |[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)|31.9k|指定你希望它构建什么，人工智能要求澄清，然后构建它|
