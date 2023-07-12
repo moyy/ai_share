@@ -2,6 +2,7 @@
 - [LLM 相关项目](#llm-相关项目)
 - [01. 开源：参考 功能，代码流程](#01-开源参考-功能代码流程)
 - [02. 闭源：借鉴 产品流程](#02-闭源借鉴-产品流程)
+- [03. GPT 相关 开源项目](#03-gpt-相关-开源项目)
 
 # LLM 相关项目
 
@@ -67,3 +68,13 @@
 |[Saga](https://saga.so/ai)|数字人工智能助手，一个集成笔记、任务和工具的人工智能工作空间|
 |[Second](https://www.second.dev/)|针对每个代码库的自动化迁移和升级|
 
+# 03. GPT 相关 开源项目
+
+- 翻译助手：划词翻译 `openai-translator`
+- 双语网页翻译插件 `immersive-translate`
+- 文档秘书：你直接提问即可 `ChatPDF`
+- 论文总结工具`ChatPaper`、`ResearchGPT`
+- 视频助手 `Language Reactor`
+- 搜索与视频总结插件 `Glarity`
+- 能总结B站视频的 `BibiGPT`
+- 语音对话助手 `talk-to-chatgpt`
