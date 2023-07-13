@@ -8,7 +8,7 @@
   - [06. ChatGPT 网页模拟](#06-chatgpt-网页模拟)
     - [36K Yidadaa/ChatGPT-Next-Web](#36k-yidadaachatgpt-next-web)
     - [25K Chanzhaoyu/chatgpt-web](#25k-chanzhaoyuchatgpt-web)
-    - [18k pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](#18k-pengzhile-潘多拉-让你呼吸顺畅的chatgpt)
+    - [**黑科技！** 18k pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](#黑科技-18k-pengzhile-潘多拉-让你呼吸顺畅的chatgpt)
     - [13K Bin-Huang/chatbox](#13k-bin-huangchatbox)
 
 # LLM 相关项目
@@ -121,11 +121,14 @@
     - 依赖于第三方服务器，并且有速率限制
     - OpenAI API 代理 实现 2: [社区代理](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy)
 
-### 18k [pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](https://github.com/pengzhile/pandora)
-
-黑科技：能免梯子，有插件支持，和官网一样的体验。
+### **黑科技！** 18k [pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](https://github.com/pengzhile/pandora)
 
 原理：通过 通过截取网页，看懂了 GPT HTTP API 后自己模拟了一个同样的通信；
+
++ 能免梯子，有插件支持，和官网一样的体验。
++ 支持 代码解释器，只要你有 plus 账号
++ 支持 GPT 插件，只要你有 plus 账号
++ **狠：** [支持 Chat GPT 转 Turbo API](https://github.com/pengzhile/pandora/issues/837)
 
 + 点击 https://chat.zhile.io 包含一个共享账号的链接，没有账号的可以点进去体验一下
 + 最新拿 Access Token 的技术原理，我记录在 [这里](https://zhile.io/2023/05/19/how-to-get-chatgpt-access-token-via-pkce.html)了。
@@ -139,4 +142,3 @@
 + 流式回复，打字机特效
 + 适合团队办公，共享 OpenAI API 资源
 + 客户端: Windows / Mac / Linux
-
