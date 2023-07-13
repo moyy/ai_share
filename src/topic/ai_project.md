@@ -6,10 +6,11 @@
   - [04. GPT Prompt Engineer](#04-gpt-prompt-engineer)
   - [05. 一键翻译 图片文字](#05-一键翻译-图片文字)
   - [06. ChatGPT 网页模拟](#06-chatgpt-网页模拟)
-    - [36K Yidadaa/ChatGPT-Next-Web](#36k-yidadaachatgpt-next-web)
-    - [25K Chanzhaoyu/chatgpt-web](#25k-chanzhaoyuchatgpt-web)
-    - [**黑科技！** 18k pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](#黑科技-18k-pengzhile-潘多拉-让你呼吸顺畅的chatgpt)
-    - [13K Bin-Huang/chatbox](#13k-bin-huangchatbox)
+    - [6.1. Yidadaa/ChatGPT-Next-Web 36K](#61-yidadaachatgpt-next-web-36k)
+    - [6.2. Chanzhaoyu/chatgpt-web 25K](#62-chanzhaoyuchatgpt-web-25k)
+    - [6.3. pengzhile 潘多拉 **黑科技！** 18k](#63-pengzhile-潘多拉-黑科技-18k)
+    - [6.4. Bin-Huang/chatbox 13K](#64-bin-huangchatbox-13k)
+    - [6.5. chatgpt-web-share 2.2K](#65-chatgpt-web-share-22k)
 
 # LLM 相关项目
 
@@ -103,7 +104,7 @@
 
 截至 2023.07.13 找到的 项目有如下几个，Star数 从 高到低：
 
-### 36K [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
+### 6.1. [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) 36K
 
 + 支持 GPT-4
 + 流式响应
@@ -112,23 +113,41 @@
 + `Doing`: 模拟 插件 支持（非官方），支持联网搜索、计算器、调用其他平台 api
 + **狠！** 支持自部署的LLM：`LocalAI` 项目 `llama` / `gpt4all` 等，或用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
 
-### 25K [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)
+### 6.2. [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) 25K 
 
 两种方式 实现 OpenAI-ChatGPT 的网页模拟：
 
 + API: gpt-3.5-turbo
-+ accessToken: 就是 通过截取网页，看懂了 GPT HTTP API 后自己模拟了一个同样的通信；
++ accessToken: 就是 通过截取网页，看懂了 GPT HTTP API 后自己模拟；
     - 依赖于第三方服务器，并且有速率限制
     - OpenAI API 代理 实现 2: [社区代理](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy)
 
-### **黑科技！** 18k [pengzhile 潘多拉: 让你呼吸顺畅的ChatGPT](https://github.com/pengzhile/pandora)
+### 6.3. [pengzhile 潘多拉](https://github.com/pengzhile/pandora) **黑科技！** 18k 
 
-原理：通过 通过截取网页，看懂了 GPT HTTP API 后自己模拟了一个同样的通信；
+好处：
+
++ 免代理。
++ 如果你有账号，就可以免去 api 付费。众所周知：api 付费 按 Token，还需要 另外绑卡。。。
+
+功能：
 
 + 能免梯子，有插件支持，和官网一样的体验。
-+ 支持 代码解释器，只要你有 plus 账号
-+ 支持 GPT 插件，只要你有 plus 账号
++ **狠：** 支持 代码解释器，只要你有 plus 账号
++ **狠：** 支持 GPT 插件，只要你有 plus 账号
 + **狠：** [支持 Chat GPT 转 Turbo API](https://github.com/pengzhile/pandora/issues/837)
+
+原理：
+
+**注：** 目前 没有人 发布有关反向代理如何工作的信息，以防止 OpenAI 禁用访问！
+
++ 按下文获取自己的`Access Token`
++ 里面 会调用 `fakeopen`代理 提供的 api 进行 `OpenAI` 转发，但 ai.fakeopen.com 不开源；
++ `fakeopen` 代理，估计是 通过截取网页，看懂了 GPT HTTP API 后自己模拟；
++ `fakeopen` 开源平替，能力：无法访问 插件，无法访问 代码解释器！
+    - [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) 14.7K
+    - [chatgpt-proxy](https://github.com/flyingpot/chatgpt-proxy) 
+    
+步骤：
 
 + 点击 https://chat.zhile.io 包含一个共享账号的链接，没有账号的可以点进去体验一下
 + 最新拿 Access Token 的技术原理，我记录在 [这里](https://zhile.io/2023/05/19/how-to-get-chatgpt-access-token-via-pkce.html)了。
@@ -136,9 +155,17 @@
 + 也可以官方登录，然后访问 [这里](https://chat.openai.com/api/auth/session) 拿 Access Token
 + Access Token 有效期 14 天，期间访问不需要梯子。这意味着你在手机上也可随意使用。
 
-### 13K [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)
+### 6.4. [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 13K
 
 + 支持 OpenAI(GPT3.5, GPT4) /  Azure OpenAI / ChatGLM-6B
 + 流式回复，打字机特效
 + 适合团队办公，共享 OpenAI API 资源
 + 客户端: Windows / Mac / Linux
+
+### 6.5. [chatgpt-web-share](https://github.com/moeakwak/chatgpt-web-share) 2.2K 
+
++ 共享 ChatGPT 账号 给 多用户同时使用 
++ 使用 FastAPI + Vue3 开发
++ 支持 ChatGPT Plus / 设置对话模型 / 用户请求限制等功能。
++ 支持使用 GPT-4！
+
