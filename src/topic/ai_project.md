@@ -3,14 +3,14 @@
 - [01. 开源：参考 功能，代码流程](#01-开源参考-功能代码流程)
 - [02. 闭源：借鉴 产品流程](#02-闭源借鉴-产品流程)
 - [03. GPT 相关 开源项目](#03-gpt-相关-开源项目)
-  - [04. GPT Prompt Engineer](#04-gpt-prompt-engineer)
-  - [05. 一键翻译 图片文字](#05-一键翻译-图片文字)
-  - [06. ChatGPT 网页模拟](#06-chatgpt-网页模拟)
-    - [6.1. Yidadaa/ChatGPT-Next-Web 36K](#61-yidadaachatgpt-next-web-36k)
-    - [6.2. Chanzhaoyu/chatgpt-web 25K](#62-chanzhaoyuchatgpt-web-25k)
-    - [6.3. pengzhile 潘多拉 **黑科技！** 18k](#63-pengzhile-潘多拉-黑科技-18k)
-    - [6.4. Bin-Huang/chatbox 13K](#64-bin-huangchatbox-13k)
-    - [6.5. chatgpt-web-share 2.2K](#65-chatgpt-web-share-22k)
+- [04. GPT Prompt Engineer](#04-gpt-prompt-engineer)
+- [05. 一键翻译 图片文字](#05-一键翻译-图片文字)
+- [06. ChatGPT 网页模拟](#06-chatgpt-网页模拟)
+  - [6.1. Yidadaa/ChatGPT-Next-Web 36K](#61-yidadaachatgpt-next-web-36k)
+  - [6.2. Chanzhaoyu/chatgpt-web 25K](#62-chanzhaoyuchatgpt-web-25k)
+  - [6.3. pengzhile 潘多拉 **黑科技！** 18k](#63-pengzhile-潘多拉-黑科技-18k)
+  - [6.4. Bin-Huang/chatbox 13K](#64-bin-huangchatbox-13k)
+  - [6.5. chatgpt-web-share 2.2K](#65-chatgpt-web-share-22k)
 
 # LLM 相关项目
 
@@ -88,32 +88,33 @@
 - 语音对话助手 `talk-to-chatgpt`
 - [MetaGPT](https://github.com/geekan/MetaGPT) 生成产品分析文档、用户故事、竞品分析、数据结构、项目 API
 
-## 04. [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer)
+# 04. [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer)
 
 用户只需要输入一些简单的任务描述，并提供参考用例。该工具便会自动帮你生成各种 Prompt，自动对 Prompt 测试和评分，帮你尽可能找到最优项目提示。
 
 项目引入了提示测试、ELO 评级系统、权重和偏差日志记录，在 Prompt 生成过程中，给你足够的数据作为评估。
 
-## 05. [一键翻译 图片文字](https://zyddnys/manga-image-translator)
+# 05. [一键翻译 图片文字](https://zyddnys/manga-image-translator)
 
 [在线测试](https://cotrans.touhou.ai/)
 
 一键翻译各类图片内文字，特别适合漫画的翻译，支持DeepL和ChatGPT的API。
 
-## 06. ChatGPT 网页模拟
+# 06. ChatGPT 网页模拟
 
 截至 2023.07.13 找到的 项目有如下几个，Star数 从 高到低：
 
-### 6.1. [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) 36K
+## 6.1. [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) 36K
 
 + 支持 GPT-4
 + 流式响应
 + 国际化：英语、简体中文、繁体中文、日本语 等
 + 客户端: Windows / Mac / Linux
 + `Doing`: 模拟 插件 支持（非官方），支持联网搜索、计算器、调用其他平台 api
-+ **狠！** 支持自部署的LLM：`LocalAI` 项目 `llama` / `gpt4all` 等，或用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
++ 支持自部署的LLM：`LocalAI` 项目 `llama` / `gpt4all` 等
+    - **狠！** 用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
 
-### 6.2. [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) 25K 
+## 6.2. [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) 25K 
 
 两种方式 实现 OpenAI-ChatGPT 的网页模拟：
 
@@ -122,7 +123,7 @@
     - 依赖于第三方服务器，并且有速率限制
     - OpenAI API 代理 实现 2: [社区代理](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy)
 
-### 6.3. [pengzhile 潘多拉](https://github.com/pengzhile/pandora) **黑科技！** 18k 
+## 6.3. [pengzhile 潘多拉](https://github.com/pengzhile/pandora) **黑科技！** 18k 
 
 好处：
 
@@ -155,14 +156,14 @@
 + 也可以官方登录，然后访问 [这里](https://chat.openai.com/api/auth/session) 拿 Access Token
 + Access Token 有效期 14 天，期间访问不需要梯子。这意味着你在手机上也可随意使用。
 
-### 6.4. [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 13K
+## 6.4. [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 13K
 
 + 支持 OpenAI(GPT3.5, GPT4) /  Azure OpenAI / ChatGLM-6B
 + 流式回复，打字机特效
 + 适合团队办公，共享 OpenAI API 资源
 + 客户端: Windows / Mac / Linux
 
-### 6.5. [chatgpt-web-share](https://github.com/moeakwak/chatgpt-web-share) 2.2K 
+## 6.5. [chatgpt-web-share](https://github.com/moeakwak/chatgpt-web-share) 2.2K 
 
 + 共享 ChatGPT 账号 给 多用户同时使用 
 + 使用 FastAPI + Vue3 开发
