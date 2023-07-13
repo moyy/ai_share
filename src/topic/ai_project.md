@@ -3,6 +3,7 @@
 - [01. 开源：参考 功能，代码流程](#01-开源参考-功能代码流程)
 - [02. 闭源：借鉴 产品流程](#02-闭源借鉴-产品流程)
 - [03. GPT 相关 开源项目](#03-gpt-相关-开源项目)
+  - [04. GPT Prompt Engineer](#04-gpt-prompt-engineer)
 
 # LLM 相关项目
 
@@ -78,3 +79,10 @@
 - 搜索与视频总结插件 `Glarity`
 - 能总结B站视频的 `BibiGPT`
 - 语音对话助手 `talk-to-chatgpt`
+- [MetaGPT](https://github.com/geekan/MetaGPT) 生成产品分析文档、用户故事、竞品分析、数据结构、项目 API
+
+## 04. [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer)
+
+用户只需要输入一些简单的任务描述，并提供参考用例。该工具便会自动帮你生成各种 Prompt，自动对 Prompt 测试和评分，帮你尽可能找到最优项目提示。
+
+项目引入了提示测试、ELO 评级系统、权重和偏差日志记录，在 Prompt 生成过程中，给你足够的数据作为评估。收起
