@@ -109,7 +109,8 @@
 + 流式响应
 + 国际化：英语、简体中文、繁体中文、日本语 等
 + 客户端: Windows / Mac / Linux
-+ 模拟 插件 支持（非官方）
++ `Doing`: 模拟 插件 支持（非官方），支持联网搜索、计算器、调用其他平台 api
++ **狠！** 支持自部署的LLM：`LocalAI` 项目 `llama` / `gpt4all` 等，或用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
 
 ### 25K [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)
 
