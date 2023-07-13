@@ -145,7 +145,7 @@
 + 里面 会调用 `fakeopen`代理 提供的 api 进行 `OpenAI` 转发，但 ai.fakeopen.com 不开源；
 + `fakeopen` 代理，估计是 通过截取网页，看懂了 GPT HTTP API 后自己模拟；
 + `fakeopen` 开源平替，能力：无法访问 插件，无法访问 代码解释器！
-    - [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) 14.7K
+    - **狠：** [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) 14.7K
     - [chatgpt-proxy](https://github.com/flyingpot/chatgpt-proxy) 
     
 步骤：
