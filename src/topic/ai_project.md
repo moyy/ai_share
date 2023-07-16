@@ -148,16 +148,16 @@
 + 里面 会调用 `fakeopen`代理 提供的 api 进行 `OpenAI` 转发，但 ai.fakeopen.com 不开源；
 + `fakeopen` 代理，估计是 通过截取网页，看懂了 GPT HTTP API 后自己模拟；
 + `fakeopen` 开源平替，能力：无法访问 插件，无法访问 代码解释器！
-    - [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) 14.7K
+    - **狠：** [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) 14.7K
     - [chatgpt-proxy](https://github.com/flyingpot/chatgpt-proxy) 
     
 步骤：
 
 + 点击 https://chat.zhile.io 包含一个共享账号的链接，没有账号的可以点进去体验一下
-+ 最新拿 Access Token 的技术原理，我记录在 [这里](https://zhile.io/2023/05/19/how-to-get-chatgpt-access-token-via-pkce.html)了。
++ 最新拿 Access Token 的技术原理，记录在 [这里](https://zhile.io/2023/05/19/how-to-get-chatgpt-access-token-via-pkce.html)
 + 可以访问 [这里](https://ai-20230626.fakeopen.com/auth) 拿 Access Token
 + 也可以官方登录，然后访问 [这里](https://chat.openai.com/api/auth/session) 拿 Access Token
-+ Access Token 有效期 14 天，期间访问不需要梯子。这意味着你在手机上也可随意使用。
++ Access Token 有效期 30 天，期间访问不需要梯子。这意味着你在手机上也可随意使用。
 
 ## 6.4. [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 13K
 
