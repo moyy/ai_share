@@ -11,6 +11,8 @@
   - [6.3. pengzhile 潘多拉 **黑科技！** 18k](#63-pengzhile-潘多拉-黑科技-18k)
   - [6.4. Bin-Huang/chatbox 13K](#64-bin-huangchatbox-13k)
   - [6.5. chatgpt-web-share 2.2K](#65-chatgpt-web-share-22k)
+- [7. Al Zebra: 面向儿童的AI数学辅导软件](#7-al-zebra-面向儿童的ai数学辅导软件)
+- [8. ShortGPT：自动化内容创作框架](#8-shortgpt自动化内容创作框架)
 
 # LLM 相关项目
 
@@ -20,6 +22,7 @@
 
 ||Github Star数||
 |--|--|--|
+|[SQL Genius](https://sqlgenius.app)||用AI将自然语言转化为 SQL，可以自己定义表结构|
 |[Danswer](https://github.com/danswer-ai/danswer)||开源企业级问答系统|
 |[gpt-author](https://github.com/mshumer/gpt-author)||使用GPT-4和Stable Diffusion API调用链生成原创奇幻小说|
 |[GPT Code UI](https://github.com/ricklamers/gpt-code-ui/)||开源 GPT 代码解释器插件|
@@ -169,4 +172,12 @@
 + 使用 FastAPI + Vue3 开发
 + 支持 ChatGPT Plus / 设置对话模型 / 用户请求限制等功能。
 + 支持使用 GPT-4！
+
+# 7. [Al Zebra: 面向儿童的AI数学辅导软件](https://github.com/moreshk/alzebra)
+
+旨在提供互动学习体验，通过根据孩子之前的回答情况提出逐渐增加难度的问题，验证答案，并为正确解决方案提供逐步解释，帮孩子们学习数学，有智能递进的问题复杂性、逐步解释正确答案以及互动有趣的学习体验等特点
+
+# 8. [ShortGPT：自动化内容创作框架](https://github.com/RayVentura/ShortGPT)
+
+简化了视频创作、素材获取、语音合成和编辑任务
 
