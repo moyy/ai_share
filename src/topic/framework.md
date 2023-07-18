@@ -1,4 +1,5 @@
 - [开发框架](#开发框架)
+- [12. Trex：将非结构化数据转换为结构化数据的工具](#12-trex将非结构化数据转换为结构化数据的工具)
 - [11. Diaphora：开源 程序diffing 分析 工具](#11-diaphora开源-程序diffing-分析-工具)
 - [10. `科普` 《科普一下CPU, GPU和TPU》](#10-科普-科普一下cpu-gpu和tpu)
 - [09. `教程` 《程序员对CPU缓存的误解》](#09-教程-程序员对cpu缓存的误解)
@@ -18,6 +19,10 @@
 + 后端服务，用 Python / JS + `Supabase`
 + 前端部署：`Vercel`
 + 后端部署：`Docker`
+
+# 12. [Trex：将非结构化数据转换为结构化数据的工具](https://github.com/automorphic-ai/trex)
+
+可以根据 正则表达式 或 上下文无关文法 智能地 重构数据 以 符合指定的模式
 
 # 11. [Diaphora：开源 程序diffing 分析 工具](https://github.com/joxeankoret/diaphora)
 
