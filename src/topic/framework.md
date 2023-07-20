@@ -1,4 +1,5 @@
 - [开发框架](#开发框架)
+- [JS 开发框架](#js-开发框架)
 - [12. Trex：将非结构化数据转换为结构化数据的工具](#12-trex将非结构化数据转换为结构化数据的工具)
 - [11. Diaphora：开源 程序diffing 分析 工具](#11-diaphora开源-程序diffing-分析-工具)
 - [10. `科普` 《科普一下CPU, GPU和TPU》](#10-科普-科普一下cpu-gpu和tpu)
@@ -19,6 +20,16 @@
 + 后端服务，用 Python / JS + `Supabase`
 + 前端部署：`Vercel`
 + 后端部署：`Docker`
+
+# [JS 开发框架](https://a16z.com/2023/06/21/the-getting-started-with-ai-stack-for-javascript/)
+
++ 授权: [Clerk](https://clerk.com/)
++ App 逻辑: [Next.js](https://nextjs.org/)
++ Vector database: [Pinecone](https://www.pinecone.io/) / [Supabase pgvector](https://supabase.com/docs/guides/database/extensions/pgvector)
++ LLM 编排: [Langchain.js](https://js.langchain.com/docs/get_started/introduction/)
++ Image model: [Replicate](https://replicate.com/)
++ Text model: [OpenAI](https://platform.openai.com/docs/models)
++ 部署: [Fly.io](https://fly.io/)
 
 # 12. [Trex：将非结构化数据转换为结构化数据的工具](https://github.com/automorphic-ai/trex)
 

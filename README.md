@@ -9,6 +9,7 @@
 ## 专题
 
 + [AI 项目](src/topic/ai_project.md)
++ [游戏 AI](src/topic/ai_in_game.md)
 + [向量数据库](src/topic/vector_database.md)
 + [数据库](src/topic/database.md)
 + [开发框架](src/topic/framework.md) 
