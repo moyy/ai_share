@@ -1,4 +1,5 @@
 - [向量数据库](#向量数据库)
+- [09. 《向量数据库》](#09-向量数据库)
 - [08. tinyvector: SQLite \& Pytorch](#08-tinyvector-sqlite--pytorch)
 - [07. 技术文章系列: Qdrant中的向量数据库](#07-技术文章系列-qdrant中的向量数据库)
 - [06. 推荐系统 的 向量检索 解析](#06-推荐系统-的-向量检索-解析)
@@ -44,6 +45,10 @@
 ![](../../images/007C1uJCgy1heunx3dpduj30zo18t49p.jpg)
 
 ![](../../images/1_VSkugYj5NOCQ8xTPaWnv2w.webp)
+
+# 09. [《向量数据库》](https://guangzhengli.com/blog/zh/vector-database/)
+
+介绍了向量数据库在解决人工智能模型限制方面的重要性。随着AI应用的蓬勃发展，向量数据库成为了热门话题之一。文章解释了向量数据库的核心思想，即将文本转换成向量并存储在数据库中，通过向量之间的相似性搜索实现高效的问题解答和文本理解。向量数据库在解决GPT模型输入端token限制、计算量和成本等问题上发挥了重要作用，并在语义搜索和AI领域有广泛应用
 
 # 08. [tinyvector: SQLite & Pytorch](https://github.com/0hq/tinyvector)
 
