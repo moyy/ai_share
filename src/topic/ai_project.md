@@ -59,6 +59,7 @@
 
 |||
 |--|--|
+|[chato: QA 系统](https://chato.cn)|||
 |[Mendable AI](https://www.mendable.ai/)||输入github url 的 QA|
 |[DeepNote](https://deepnote.com/blog/introducing-deepnote-ai)|凭借其高效和上下文代码建议，为未来笔记本电脑中人工智能驱动的数据探索铺平了道路。|
 |[Airplane Autopilot](https://www.airplane.dev/autopilot)|一家制造内部工具的公司，他们正在制造自动驾驶人工智能助手|
