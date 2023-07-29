@@ -1,4 +1,5 @@
 - [向量数据库](#向量数据库)
+- [10. 《ChatGPT盛行的当下，向量数据库为大模型配备了一个超级大脑》](#10-chatgpt盛行的当下向量数据库为大模型配备了一个超级大脑)
 - [09. 《向量数据库》](#09-向量数据库)
 - [08. tinyvector: SQLite \& Pytorch](#08-tinyvector-sqlite--pytorch)
 - [07. 技术文章系列: Qdrant中的向量数据库](#07-技术文章系列-qdrant中的向量数据库)
@@ -45,6 +46,8 @@
 ![](../../images/007C1uJCgy1heunx3dpduj30zo18t49p.jpg)
 
 ![](../../images/1_VSkugYj5NOCQ8xTPaWnv2w.webp)
+
+# 10. [《ChatGPT盛行的当下，向量数据库为大模型配备了一个超级大脑》](https://weibo.com/ttarticle/p/show?id=2309404927478916579535)
 
 # 09. [《向量数据库》](https://guangzhengli.com/blog/zh/vector-database/)
 
