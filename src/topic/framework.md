@@ -2,7 +2,7 @@
 - [JS 开发框架](#js-开发框架)
 - [16. 中文技术文档写作风格指南](#16-中文技术文档写作风格指南)
 - [15. 日志的艺术](#15-日志的艺术)
-- [14. 2020年：常见操作的延迟](#14-2020年常见操作的延迟)
+- [14. 2020年：常见程序操作的延迟时间](#14-2020年常见程序操作的延迟时间)
 - [14. 系统设计 常识](#14-系统设计-常识)
 - [13. 开发者体验 指南](#13-开发者体验-指南)
 - [12. Trex：将非结构化数据转换为结构化数据的工具](#12-trex将非结构化数据转换为结构化数据的工具)
@@ -43,7 +43,7 @@
 
 因此，在开发应用程序时遵循良好的实践，在收集管理日志时选用成熟的方案，往往能让这些矛盾得以缓解，这也就有了这一篇的分享。
 
-# 14. [2020年：常见操作的延迟](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
+# 14. [2020年：常见程序操作的延迟时间](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
 [ByteByteGo 视频](https://www.youtube.com/watch?v=FqR5vESuKe0)
 
