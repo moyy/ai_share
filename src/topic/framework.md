@@ -56,19 +56,19 @@
 
 |延迟|操作|
 |--|--|
-|1ns|L1 缓存|
-|3ns|分支预测 失败|
-|4ns|L2 缓存|
-|16ns|1Gbps 网络 发送 2KB|
-|17ns|Mutex|
-|100ns|内存引用|
-|1us|内存 顺序读 1MB|
-|2us|zip 压缩 1KB|
-|16us|SSD 随机访问|
-|24us|SSD 顺序读 1MB|
-|544us|机械硬盘 顺序访问 1MB|
-|2ms|机械硬盘 seek|
-|150ms|发送网络包：洛杉矶 --> 荷兰 --> 洛杉矶|
+|1 ns|L1 缓存|
+|3 ns|分支预测 失败|
+|4 ns|L2 缓存|
+|16 ns|1Gbps 网络 发送 2KB|
+|17 ns|Mutex 锁 / 解锁|
+|100 ns|内存引用|
+|1 us|内存 顺序读 1MB|
+|2 us|zip 压缩 1KB|
+|16 us|SSD 随机访问|
+|24 us|SSD 顺序读 1MB|
+|544 us|机械硬盘 顺序访问 1MB|
+|2 ms|机械硬盘 seek|
+|150 ms|发送网络包：洛杉矶 --> 荷兰 --> 洛杉矶|
 
 # 14. [系统设计 常识](https://github.com/bojanskr/system-design)
 
