@@ -1,5 +1,9 @@
 - [开发框架](#开发框架)
 - [JS 开发框架](#js-开发框架)
+- [16. 中文技术文档写作风格指南](#16-中文技术文档写作风格指南)
+- [15. 日志的艺术](#15-日志的艺术)
+- [14. 2020年：常见操作的延迟](#14-2020年常见操作的延迟)
+- [14. 系统设计 常识](#14-系统设计-常识)
 - [13. 开发者体验 指南](#13-开发者体验-指南)
 - [12. Trex：将非结构化数据转换为结构化数据的工具](#12-trex将非结构化数据转换为结构化数据的工具)
 - [11. Diaphora：开源 程序diffing 分析 工具](#11-diaphora开源-程序diffing-分析-工具)
@@ -30,6 +34,43 @@
 + Image model: [Replicate](https://replicate.com/)
 + Text model: [OpenAI](https://platform.openai.com/docs/models)
 + 部署: [Fly.io](https://fly.io/)
+
+# 16. [中文技术文档写作风格指南](https://zh-style-guide.readthedocs.io/zh_CN/latest/index.html)
+
+# 15. [日志的艺术](https://guangzhengli.com/blog/zh/the-art-of-logging)
+
+理解日志并不是一件容易的事，开发人员在编写代码之时往往会纠结在某处打印的日志是不是有意义的，而 SRE 在面对缺少日志的生产问题时往往一筹莫展，Ops 在对面海量日志时往往需要花费更多的精力来维护，而项目的实际管理者在面对毫无实际业务价值的日志时，往往不想花费太多的人力和财力去管理它。
+
+因此，在开发应用程序时遵循良好的实践，在收集管理日志时选用成熟的方案，往往能让这些矛盾得以缓解，这也就有了这一篇的分享。
+
+# 14. [2020年：常见操作的延迟](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
+
+[ByteByteGo 视频](https://www.youtube.com/watch?v=FqR5vESuKe0)
+
++ 秒   1  s = 1000 ms
++ 毫秒 1 ms = 1000 us
++ 微妙 1 us = 1000 ns
++ 纳秒 1 ns
+
+截至 2020年：
+
+|延迟|操作|
+|--|--|
+|1ns|L1 缓存|
+|3ns|分支预测 失败|
+|4ns|L2 缓存|
+|16ns|1Gbps 网络 发送 2KB|
+|17ns|Mutex|
+|100ns|内存引用|
+|1us|内存 顺序读 1MB|
+|2us|zip 压缩 1KB|
+|16us|SSD 随机访问|
+|24us|SSD 顺序读 1MB|
+|544us|机械硬盘 顺序访问 1MB|
+|2ms|机械硬盘 seek|
+|150ms|发送网络包：洛杉矶 --> 荷兰 --> 洛杉矶|
+
+# 14. [系统设计 常识](https://github.com/bojanskr/system-design)
 
 # 13. [开发者体验 指南](https://dx.phodal.com/)
 
