@@ -1,6 +1,6 @@
 - [开发框架](#开发框架)
 - [JS 开发框架](#js-开发框架)
-- [16. 中文技术文档写作风格指南](#16-中文技术文档写作风格指南)
+- [16. M1 Cpu 装 linux：显著降低构建时间](#16-m1-cpu-装-linux显著降低构建时间)
 - [15. 日志的艺术](#15-日志的艺术)
 - [14. 2020年：常见程序操作的延迟时间](#14-2020年常见程序操作的延迟时间)
   - [1. 时间](#1-时间)
@@ -39,7 +39,13 @@
 + Text model: [OpenAI](https://platform.openai.com/docs/models)
 + 部署: [Fly.io](https://fly.io/)
 
-# 16. [中文技术文档写作风格指南](https://zh-style-guide.readthedocs.io/zh_CN/latest/index.html)
+# 16. [M1 Cpu 装 linux：显著降低构建时间](https://weibo.com/1812166904/NdsMMrs1a)
+
+在 M1 机器上装 Linux 系统跑业务构建，思路清奇，但效果极佳。
+
+得出的一个结论是：对于 Node.js 依赖安装、前端项目构建、Swift 代码编译这些 CPU 密集且内存访问频繁、其中一些步骤依赖单核性能的场景，M1 有着非常明显的提升，即使使用 Rosetta 2 转译也要显著好于 i5。
+
+在两年前，我们自己也做了类似的实验，得出的结论是基本一致的，而且买了一批机器，将 Mac 系统换成了 Linux，然后接入到集群进行调度，从数据上看，构建时间整体下降了 30%~60%，在高频协同尤其是 CI 任务繁重的项目中，这种投入的收益还是蛮高的
 
 # 15. [日志的艺术](https://guangzhengli.com/blog/zh/the-art-of-logging)
 

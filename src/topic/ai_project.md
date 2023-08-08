@@ -99,7 +99,7 @@
 
 项目引入了提示测试、ELO 评级系统、权重和偏差日志记录，在 Prompt 生成过程中，给你足够的数据作为评估。
 
-# 05. [一键翻译 图片文字](https://zyddnys/manga-image-translator)
+# 05. [一键翻译 图片文字](https://github.com/zyddnys/manga-image-translator)
 
 [在线测试](https://cotrans.touhou.ai/)
 
