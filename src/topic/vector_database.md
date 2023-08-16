@@ -1,4 +1,5 @@
 - [向量数据库](#向量数据库)
+- [11. Speedy Semantic Search：用 Qdrant 向量搜索引擎在几毫秒内进行语义搜索，包括python 和 Rust 版本](#11-speedy-semantic-search用-qdrant-向量搜索引擎在几毫秒内进行语义搜索包括python-和-rust-版本)
 - [10. 《ChatGPT盛行的当下，向量数据库为大模型配备了一个超级大脑》](#10-chatgpt盛行的当下向量数据库为大模型配备了一个超级大脑)
 - [09. 《向量数据库》](#09-向量数据库)
 - [08. tinyvector: SQLite \& Pytorch](#08-tinyvector-sqlite--pytorch)
@@ -46,6 +47,8 @@
 ![](../../images/007C1uJCgy1heunx3dpduj30zo18t49p.jpg)
 
 ![](../../images/1_VSkugYj5NOCQ8xTPaWnv2w.webp)
+
+# 11. [Speedy Semantic Search：用 Qdrant 向量搜索引擎在几毫秒内进行语义搜索，包括python 和 Rust 版本](https://github.com/qdrant/page-search)
 
 # 10. [《ChatGPT盛行的当下，向量数据库为大模型配备了一个超级大脑》](https://weibo.com/ttarticle/p/show?id=2309404927478916579535)
 
